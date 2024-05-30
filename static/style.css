@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+.image-zoom-container {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
+.zoom-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.zoom-image:hover {
+    transform: scale(1.5);
+}
